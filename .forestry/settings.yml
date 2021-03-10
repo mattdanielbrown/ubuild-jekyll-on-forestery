@@ -7,18 +7,10 @@ sections:
 - type: jekyll-pages
   label: jekyllpage1
   create: all
-  match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
 - type: document
   path: SomeDirectory/demodocument.hbs
   label: Demo Document
-  match: "**/*"
-- type: directory
-  path: ''
-  label: SomeDirectory
-  create: all
-  match: "**/*"
-  new_doc_ext: ".hbs"
 - type: heading
   label: Section Heading
 - type: document
