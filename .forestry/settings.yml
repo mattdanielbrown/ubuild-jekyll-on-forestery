@@ -4,12 +4,6 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: ''
-  label: Templates
-  create: all
-  match: "**/*"
-  new_doc_ext: ".hbs"
 - type: document
   path: FORESTRY-README.md
   label: Welcome - First Steps
@@ -23,7 +17,7 @@ sections:
   create: documents
   match: "**/*"
   exclude: "*README.md"
-  new_doc_ext: ".hbs"
+  new_doc_ext: hbs
 - type: document
   path: _config.yml
   label: Config
