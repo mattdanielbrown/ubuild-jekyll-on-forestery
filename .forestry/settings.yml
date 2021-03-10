@@ -26,7 +26,7 @@ sections:
   create: documents
   match: "**/*"
   exclude: "*README.md"
-  new_doc_ext: hbs
+  new_doc_ext: ".hbs"
 - type: document
   path: _config.yml
   label: Config
